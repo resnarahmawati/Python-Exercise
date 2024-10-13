@@ -1,11 +1,16 @@
-
 print('='*40)
-print('              PROGRAM PERSEGI')
+print('     PROGRAM PERSEGI')
 print('='*40)
+def persegi():
+    sisi = int(input('Sisi\t\t: '))
 
-s = float(input('Masukkan  sisi : '))
-k = 4 * s
-l = s * s
+    luas = lambda s: s * s
+    keliling = lambda s: 4 * s
 
-print('LUAS PERSEGI : ', (l))
-print('KELILING PERSEGI : ', (k))
+    print('Luas\t\t: ',luas(sisi), 'cm2')
+    print('Keliling\t: ',keliling(sisi), 'cm')
+
+persegi()
+persegi()
+persegi()
+persegi()

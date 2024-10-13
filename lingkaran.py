@@ -2,12 +2,18 @@ print('='*40)
 print('         PROGRAM LINGKARAN')
 print('='*40)
 
-phi = 3.14
-r = float(input('Masukkan Jari-jari : '))
-l = phi * r * r
-k = 2 * phi * r
-d = 2 * r
+def lingkaran():
+    phi = 3.14
+    r = float(input('Masukkan Jari-jari : '))
+    l = lambda phi,r:phi * r * r
+    k = lambda phi,r:2 * phi * r
+    d = lambda r:2 * r
 
-print('LUAS LINGKARAAN : ', l)
-print('KELILING LINGKARAN : ', k)
-print('DIAMETER LINGKARAN : ', d)
+    print('LUAS LINGKARAAN : ', l(phi,r))
+    print('KELILING LINGKARAN : ', k(phi,r))
+    print('DIAMETER LINGKARAN : ', d(r))
+
+lingkaran()
+lingkaran()
+lingkaran()
+lingkaran()

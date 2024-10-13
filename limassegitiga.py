@@ -2,7 +2,12 @@ print('='*40)
 print('         PROGRAM LIMAS SEGITIGA')
 print('='*40)
 
-l = float(input('Masukkan luas alas : '))
-t = float(input('Masukkan tinggi : '))
-v = 1/3*l*t
-print('VOLUME : ',v)
+def limas():
+    luas = int(input('Masukkan Luas : '))
+    tinggi = int(input('Masukkan tinggi : '))
+    v = lambda l,t:  1/3*l*t
+    print('VOLUME\t : ',v(luas,tinggi), ' cm')
+
+limas()
+limas()
+limas()
