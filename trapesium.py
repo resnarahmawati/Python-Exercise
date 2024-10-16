@@ -10,8 +10,8 @@ def trapesium():
     t = float(input('Masukkan Tinggi : '))
     l = lambda a,b,t: 1/2 * (a+b) * t
     k = lambda a,b,c,d: a+b+c+d
-    print('LUAS : ',l(a,b,t))
-    print('KELILING : ',k(a,b,c,d))
+    print('LUAS : ',l(a,b,t),'cm')
+    print('KELILING : ',k(a,b,c,d,'cm'))
 
 trapesium()
 trapesium()
