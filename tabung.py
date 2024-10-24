@@ -1,16 +1,12 @@
-print('='*40)
-print('          PROGRAM TABUNG')
-print('='*40)
+print ('===========================')
+print ('      PROGRAM TABUNG ')
+print ('===========================')
+r = float(input("Masukkan Jari-jari : "))
+t = float(input('Masukkan Tinggi : '))
+v = 3.14 * r * r * t
+l = (2*3.14*r*t)+(2*3.14*r)
+lp = (3.14*r*r)+ (2*3.14*r*t)
+print('VOLUME TABUNG :', round (v))
+print('LUAS PERMUKAAN :', round (lp))
 
-def tabung():
-    phi = 3.14
-    r = float(input('Masukkan Jari-jari : '))
-    t = float(input('Masukkan Tinggi : '))
-    v = lambda phi,r,t: phi*r*r*t
-    lp = lambda phi,r,t: 2*phi*r*(r+t)
 
-    print('VOLUME : ',v(phi,r,t))
-    print('LUAS PERMUKAAN : ',lp(phi,r,t))
-
-tabung()
-tabung()
