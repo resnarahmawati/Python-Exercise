@@ -1,5 +1,5 @@
 print("="*40)
-print("KERUCUT")
+print("             KERUCUT")
 print("="*40)
 
 s = float(input('Masukkan garis pelukis (s) : '))

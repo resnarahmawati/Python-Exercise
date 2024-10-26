@@ -5,7 +5,7 @@ print('='*40)
 def limas():
     luas = int(input('Masukkan Luas : '))
     tinggi = int(input('Masukkan tinggi : '))
-    v = lambda l,t:  1/3*l*t
+    v = lambda l,t:  1/3*luas*tinggi
     print('VOLUME\t : ',v(luas,tinggi), ' cm')
 
 limas()
