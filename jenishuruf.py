@@ -1,6 +1,6 @@
 huruf = str(input('masukan abjad dari A - Z = '))
 vokal = ['a','i','u','e','o']
-konsonan = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','u','v','w','x','y','z']
+konsonan = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
 bukan_huruf = [vokal,konsonan]
 if huruf in vokal:
     print(f'{huruf} merupakan huruf vokal')
