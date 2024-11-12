@@ -1,4 +1,4 @@
-USERNAME = 'resna1@gmail.com'
+USERNAME = 'contoh1@gmail.com'
 PASSWORD = '12345678'
 
 username = input("Masukkan username\t: ")
