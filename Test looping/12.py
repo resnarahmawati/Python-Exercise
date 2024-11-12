@@ -1,10 +1,6 @@
-user = 12
-bintang = 1
-spasi_user = user
+baris = 5
 
-bintang = 1
-spasi_2 = user 
-while bintang < user:
-        print(" "*spasi_2,"*"*user)
-        spasi_2 += 1
-        user -= 2
+no = 1
+for no in range(baris):
+    print("*"*baris)
+    baris -= 1
