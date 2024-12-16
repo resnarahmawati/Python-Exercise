@@ -5,7 +5,7 @@ def hitung_ulang_tahun(tahun_lahir, tahun_akhir):
 
     # Hitung berapa kali ulang tahun di tahun kabisat
     ulang_tahun_count = 0
-    for tahun in range(tahun_lahir + 1, tahun_akhir + 1):
+    for tahun in range(tahun_lahir + 1, tahun_akhir + 1 ):
         if (tahun % 4 == 0 and tahun % 100 != 0) or (tahun % 400 == 0):
             ulang_tahun_count += 1
     
