@@ -6,7 +6,7 @@ nama = input('Masukkan Nama Lengkap : ')
 nilai = int(input('Masukkan No Absen (se jurusan) : '))
 
 print(nama)
-if 0 <= nilai <= 36:
+if 1 <= nilai <= 36:
     print(f'X PPLG 1')
 elif 37 <= nilai <= 72:
     print(f'X PPLG 2')
